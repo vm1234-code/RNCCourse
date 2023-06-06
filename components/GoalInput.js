@@ -20,7 +20,9 @@ function addGoalHandler(){
     //Sets the next value to nothing in the string when "Add goal" is pressed
     return(
         <View style={styles.inputContainer}>
-            <TextInput style={styles.textInput} placeholder='Your course goal!' 
+            <TextInput 
+            style={styles.textInput} 
+            placeholder='Your course goal!' 
             onChangeText={goalInputHandler}
             value={enteredGoalText}
             />
